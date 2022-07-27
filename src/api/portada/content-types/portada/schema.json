@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "portadas",
+  "info": {
+    "singularName": "portada",
+    "pluralName": "portadas",
+    "displayName": "Portada"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
